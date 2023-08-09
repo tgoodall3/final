@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .cardDeck {
+        width: 50%;
+
+        background: #cc00ff;
+
+        padding: 1rem;
+
+        border-radius: 4px;
+
+        display: grid;
+
+        grid-template-columns: auto auto auto auto;
+
+        flex-wrap: wrap;
+
+        justify-content: space-around;
+
+        align-items: center;
+
+        margin: 0 0 3em;
+      }
+
+      .cardDeck .card {
+        height: 8.7rem;
+
+        width: 8.7rem;
+
+        margin: 0.2rem 0.2rem;
+
+        background: #260033;
+
+        font-size: 64px;
+
+        line-height: 124px;
+
+        text-align: center;
+
+        color: #ffffff;
+
+        border-radius: 5px;
+
+        cursor: pointer;
+
+        justify-content: center;
+
+        align-items: center;
+
+        box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+      }
+    </style>
+  </head>
+
+  <body onload="Load();">
+    <div class="cardDeck">
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
